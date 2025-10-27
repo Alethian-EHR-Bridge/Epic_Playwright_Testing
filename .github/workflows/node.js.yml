@@ -1,0 +1,86 @@
+# # This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
+# # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs
+
+# name: Node.js CI
+
+# on:
+#   push:
+#     branches: [ "main" ]
+#   pull_request:
+#     branches: [ "main" ]
+
+# jobs:
+#   build:
+
+#     runs-on: ubuntu-latest
+
+#     strategy:
+#       matrix:
+#         node-version: [18.x, 20.x, 22.x]
+#         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+
+#     steps:
+#     - uses: actions/checkout@v4
+#     - name: Use Node.js ${{ matrix.node-version }}
+#       uses: actions/setup-node@v4
+#       with:
+#         node-version: ${{ matrix.node-version }}
+#         cache: 'npm'
+#     - run: npm ci
+#     - run: npm run build --if-present
+#     - run: npm test
+
+
+
+name: Playwright HTML CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test-and-save-report:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v3
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Run Playwright tests (HTML report)
+      # Generates HTML report in ./playwright-report
+      id: tests
+      continue-on-error: true           # <-- pipeline will NOT fail if tests fail
+      run: |
+        npx playwright install
+        npx playwright test --reporter=html --retries=2
+
+    - name: Upload HTML report artifact
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: playwright-html-report
+        path: playwright-report
+        retention-days: 7
+    
+    - name: Upload traces & screenshots (helpful for failures)
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: playwright-debug-artifacts
+        path: test-results
+        retention-days: 7
+
+    - name: Note test result
+      if: ${{ steps.tests.outcome == 'failure' }}
+      run: echo "Some tests failed, but the pipeline is configured to pass."
+

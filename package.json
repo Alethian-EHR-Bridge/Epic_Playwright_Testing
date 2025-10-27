@@ -1,0 +1,36 @@
+{
+  "name": "playwright-ts-framework",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf allure-results allure-report test-results playwright-report artifacts __assets__",
+    "test": "node scripts/runTests.js",
+    "test:local": "node scripts/manageFramework.js env local && npm run test",
+    "test:sauce": "node scripts/manageFramework.js env sauceLabs && npm run sauce:generate-config && npx saucectl run",
+    "sauce:generate-config": "node scripts/generateSauceConfig.js",
+    "sauce:configure": "npx saucectl configure",
+    "generate-report": "npx allure generate allure-results -o allure-report --clean",
+    "open-report": "npx allure open allure-report",
+    "test:report": "npm run clean && npm run test && npm run generate-report && npm run open-report",
+    "config": "node scripts/manageFramework.js config",
+    "config:env": "node scripts/manageFramework.js env",
+    "config:browser": "node scripts/manageFramework.js browser",
+    "config:platform": "node scripts/manageFramework.js platform",
+    "config:region": "node scripts/manageFramework.js region",
+    "config:workers": "node scripts/manageFramework.js workers",
+    "config:retries": "node scripts/manageFramework.js retries",
+    "config:concurrency": "node scripts/manageFramework.js concurrency",
+    "config:help": "node scripts/manageFramework.js help"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.54.2",
+    "@types/node": "^22.13.10",
+    "allure-commandline": "^2.22.0",
+    "allure-playwright": "^3.2.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}

@@ -1,0 +1,50 @@
+apiVersion: v1alpha
+kind: playwright
+sauce:
+  region: eu-central-1
+  concurrency: 1
+  metadata:
+    tags:
+      - e2e
+      - atheal
+      - automation
+    build: "$BUILD_ID"
+playwright:
+  version: 1.52.0
+  configFile: playwright.saucelabs.config.ts
+rootDir: ./
+suites:
+  - name: "1. Dashboard Test - Chrome Windows 11"
+    platformName: "Windows 11"
+    screenResolution: "1440x900"
+    testMatch: ["src/tests/DashboardPage.spec.ts"]
+    params:
+      browserName: "chromium"
+      project: "chromium"
+  - name: "2. PatientDetails Test - Chrome Windows 11"
+    platformName: "Windows 11"
+    screenResolution: "1440x900"
+    testMatch: ["src/tests/PatientDetailsPage.spec.ts"]
+    params:
+      browserName: "chromium"
+      project: "chromium"
+  - name: "3. ReportStatusFilter Test - Chrome Windows 11"
+    platformName: "Windows 11"
+    screenResolution: "1440x900"
+    testMatch: ["src/tests/ReportStatusFilter.spec.ts"]
+    params:
+      browserName: "chromium"
+      project: "chromium"
+
+artifacts:
+  download:
+    when: always
+    match:
+      - "playwright-report/**"
+      - "allure-results/**"
+      - "allure-report/**"
+    directory: ./artifacts/
+
+reporters:
+  spotlight:
+    enabled: true

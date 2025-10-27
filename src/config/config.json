@@ -1,0 +1,69 @@
+{
+  "baseUrl": "https://atheal-admin-development-65475268481.us-central1.run.app/en/login",
+  "execution": {
+    "environment": "sauceLabs",
+    "browser": "chromium"
+  },
+  "availableBrowsers": {
+    "chromium": {
+      "name": "chromium",
+      "displayName": "Chrome",
+      "device": "Desktop Chrome"
+    },
+    "firefox": {
+      "name": "firefox",
+      "displayName": "Firefox",
+      "device": "Desktop Firefox"
+    },
+    "webkit": {
+      "name": "webkit",
+      "displayName": "Safari",
+      "device": "Desktop Safari"
+    }
+  },
+  "environments": {
+    "local": {
+      "name": "Local Machine",
+      "description": "Run tests on your local machine",
+      "headless": true,
+      "workers": 5,
+      "retries": 0,
+      "timeout": 60000,
+      "fullyParallel": true
+    },
+    "sauceLabs": {
+      "name": "SauceLabs Cloud",
+      "description": "Run tests on SauceLabs cloud platform",
+      "headless": true,
+      "workers": 1,
+      "retries": 1,
+      "timeout": 60000,
+      "fullyParallel": false,
+      "concurrency": 1
+    }
+  },
+  "sauceLabs": {
+    "region": "eu-central-1",
+    "availablePlatforms": {
+      "windows": {
+        "name": "Windows 11",
+        "screenResolution": "1440x900"
+      },
+      "macos": {
+        "name": "macOS 12",
+        "screenResolution": "1440x900"
+      }
+    },
+    "selectedPlatform": "windows"
+  },
+  "testSuites": [
+
+    "src/tests/DashboardPage.spec.ts",
+    "src/tests/PatientDetailsPage.spec.ts",
+    "src/tests/ReportStatusFilter.spec.ts"
+  ],
+  "credentials": {
+    "email": "sujit.vishwakarna.think+1@gmail.com",
+    "password": "Pass@123"
+  }
+}
