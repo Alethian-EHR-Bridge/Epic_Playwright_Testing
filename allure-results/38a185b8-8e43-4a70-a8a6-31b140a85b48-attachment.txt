@@ -1,0 +1,3 @@
+TC007 PASSED: Future date range query successful
+Date range: December 2025
+Appointments found: 0

@@ -1,0 +1,5 @@
+TC017: Testing null/undefined values...
+  - null startDate: Status 200
+  - undefined endDate: Status 200
+  - null patientId: Status 400
+TC017 PASSED: Null/undefined values handled

@@ -1,0 +1,2 @@
+TC002 PASSED: Patient with no appointments handled
+Appointments found: 16

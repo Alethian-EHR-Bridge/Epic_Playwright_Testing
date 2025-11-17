@@ -1,0 +1,14 @@
+TC012 PASSED: Invalid zip code rejected
+Error: {
+  statusCode: 400,
+  timestamp: '2025-11-06T06:18:30.545Z',
+  path: '/api/v1/ehr/patients',
+  method: 'POST',
+  message: 'TS',
+  stack: 'Error: TS\n' +
+    '    at new EhrAdapterBadRequestError (/app/node_modules/@alethian-ehr-bridge/ehr-adapter/dist/types/errors/ehr-adapter-errors.js:8:9)\n' +
+    '    at ErrorHandlerService.handleError (/app/node_modules/@alethian-ehr-bridge/adapter-api-epic/dist/common/services/errorhandler.service.js:41:23)\n' +
+    '    at EpicPatientsService.createPatient (/app/node_modules/@alethian-ehr-bridge/adapter-api-epic/dist/services/patients/epic-patients.service.js:108:60)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  correlation_id: 'c12a1a28-21cd-4a69-be2b-cea5a6a68533'
+}

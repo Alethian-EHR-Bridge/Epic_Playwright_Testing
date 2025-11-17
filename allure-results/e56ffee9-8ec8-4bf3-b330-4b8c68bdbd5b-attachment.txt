@@ -1,0 +1,2 @@
+✅ TC018 PASSED: Very long document ID handled
+Status: 400

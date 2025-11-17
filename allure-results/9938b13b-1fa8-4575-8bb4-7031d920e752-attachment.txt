@@ -1,0 +1,2 @@
+✅ TC021 PASSED: Special characters handled correctly
+Patients found: 0

@@ -1,0 +1,6 @@
+ TC005: Testing invalid patient ID formats...
+  - ID "invalid-format": Status 400
+  - ID "123": Status 400
+  - ID "patient@invalid": Status 400
+  - ID "null": Status 400
+TC005 PASSED: Invalid patient ID formats rejected

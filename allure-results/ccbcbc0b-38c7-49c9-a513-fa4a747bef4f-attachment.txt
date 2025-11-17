@@ -1,0 +1,2 @@
+TC006 PASSED: Empty patient ID handled
+Status: 404

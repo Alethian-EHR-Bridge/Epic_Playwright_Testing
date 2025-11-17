@@ -1,0 +1,8 @@
+TC009: Testing special characters in patient ID...
+  - ID "patient@#$%": Status 400
+  - ID "patient!@#": Status 400
+  - ID "patient***": Status 400
+  - ID "patient&&&": Status 400
+  - ID "patient<>": Status 400
+  - ID "patient|pipe": Status 400
+TC009 PASSED: Special characters handled safely

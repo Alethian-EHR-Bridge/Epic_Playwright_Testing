@@ -1,0 +1,18 @@
+TC009 PASSED: Future birthdate rejected
+Status: 500 Error: {
+  statusCode: 500,
+  timestamp: '2025-11-13T08:57:40.602Z',
+  path: '/api/v1/ehr/patients',
+  method: 'POST',
+  message: 'firstName, lastName, birthdate, zipCode, genderIdentity, email, address, ssn are required to create a patient',
+  stack: 'Error: firstName, lastName, birthdate, zipCode, genderIdentity, email, address, ssn are required to create a patient\n' +
+    '    at ErrorHandlerService.handleError (/app/node_modules/@alethian-ehr-bridge/adapter-api-epic/dist/common/services/errorhandler.service.js:44:23)\n' +
+    '    at EpicPatientsService.createPatient (/app/node_modules/@alethian-ehr-bridge/adapter-api-epic/dist/services/patients/epic-patients.service.js:109:60)\n' +
+    '    at /app/node_modules/@alethian-ehr-bridge/ehr-adapter/dist/core/ehr-adapter.service.js:38:50\n' +
+    '    at AsyncLocalStorage.run (node:async_hooks:346:14)\n' +
+    '    at EhrAdapterContextService.run (/app/node_modules/@alethian-ehr-bridge/ehr-adapter/dist/core/ehr-adapter-context.service.js:15:61)\n' +
+    '    at Proxy.<anonymous> (/app/node_modules/@alethian-ehr-bridge/ehr-adapter/dist/core/ehr-adapter.service.js:37:52)\n' +
+    '    at PatientController.createPatient (/app/dist/ehr/controllers/patient.controller.js:40:24)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  correlation_id: '66f225f3-c9fa-43d9-b6f3-8c322eefd723'
+}

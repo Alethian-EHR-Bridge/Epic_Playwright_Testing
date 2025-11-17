@@ -1,0 +1,2 @@
+✅ TC025 PASSED: Empty document type handled
+Status: 200

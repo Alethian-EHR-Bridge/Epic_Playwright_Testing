@@ -1,0 +1,6 @@
+✅ TC018: Testing multiple phone formats...
+  - Phone format: "+1 608-271-9000" -> Status: 500
+  - Phone format: "+16082719000" -> Status: 500
+  - Phone format: "608-271-9000" -> Status: 500
+  - Phone format: "(608) 271-9000" -> Status: 500
+✅ TC018 PASSED: Multiple phone formats tested

@@ -1,0 +1,18 @@
+✅ TC011 PASSED: Invalid email format handled
+Status: 500 Response: {
+  statusCode: 500,
+  timestamp: '2025-11-04T07:19:46.408Z',
+  path: '/api/v1/ehr/patients?email=invalid-email-format&birthDate=1983-09-09',
+  method: 'GET',
+  message: 'name, birthDate are required to get all patients from Epic',
+  stack: 'Error: name, birthDate are required to get all patients from Epic\n' +
+    '    at ErrorHandlerService.handleError (/app/node_modules/@alethian-ehr-bridge/adapter-api-epic/dist/common/services/errorhandler.service.js:44:23)\n' +
+    '    at EpicPatientsService.getAllPatients (/app/node_modules/@alethian-ehr-bridge/adapter-api-epic/dist/services/patients/epic-patients.service.js:44:60)\n' +
+    '    at /app/node_modules/@alethian-ehr-bridge/ehr-adapter/dist/core/ehr-adapter.service.js:38:50\n' +
+    '    at AsyncLocalStorage.run (node:async_hooks:346:14)\n' +
+    '    at EhrAdapterContextService.run (/app/node_modules/@alethian-ehr-bridge/ehr-adapter/dist/core/ehr-adapter-context.service.js:15:61)\n' +
+    '    at Proxy.<anonymous> (/app/node_modules/@alethian-ehr-bridge/ehr-adapter/dist/core/ehr-adapter.service.js:37:52)\n' +
+    '    at PatientController.getAllPatients (/app/dist/ehr/controllers/patient.controller.js:28:24)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  correlation_id: '6da6478e-6cf2-4f20-a8ad-9b227c33018f'
+}

@@ -1,0 +1,5 @@
+Invalid Patient ID: "invalid_id", Status: 404
+Invalid Patient ID: "12345", Status: 404
+Invalid Patient ID: "abc@#$%", Status: 404
+Invalid Patient ID: "", Status: 500
+Invalid Patient ID: "null", Status: 404

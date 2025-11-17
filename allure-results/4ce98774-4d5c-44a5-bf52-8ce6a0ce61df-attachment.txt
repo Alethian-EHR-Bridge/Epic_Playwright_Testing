@@ -1,0 +1,17 @@
+TC012 PASSED: String instead of array rejected
+Error: {
+  statusCode: 500,
+  timestamp: '2025-11-06T06:30:20.296Z',
+  path: '/api/v1/ehr/patients/by-ids',
+  method: 'POST',
+  message: 'ids.map is not a function',
+  stack: 'TypeError: ids.map is not a function\n' +
+    '    at EpicPatientsService.getPatientsByIds (/app/node_modules/@alethian-ehr-bridge/adapter-api-epic/dist/services/patients/epic-patients.service.js:68:52)\n' +
+    '    at /app/node_modules/@alethian-ehr-bridge/ehr-adapter/dist/core/ehr-adapter.service.js:38:50\n' +
+    '    at AsyncLocalStorage.run (node:async_hooks:346:14)\n' +
+    '    at EhrAdapterContextService.run (/app/node_modules/@alethian-ehr-bridge/ehr-adapter/dist/core/ehr-adapter-context.service.js:15:61)\n' +
+    '    at Proxy.<anonymous> (/app/node_modules/@alethian-ehr-bridge/ehr-adapter/dist/core/ehr-adapter.service.js:37:52)\n' +
+    '    at PatientController.getPatientsByIds (/app/dist/ehr/controllers/patient.controller.js:36:24)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  correlation_id: '3456e48a-34d4-4c68-85c6-d291543269d8'
+}

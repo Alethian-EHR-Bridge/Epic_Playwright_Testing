@@ -1,0 +1,2 @@
+TC013 PASSED: Empty date parameters rejected
+Status: 200

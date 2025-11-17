@@ -1,0 +1,2 @@
+TC007 PASSED: Empty patientId value handled
+Status: 400

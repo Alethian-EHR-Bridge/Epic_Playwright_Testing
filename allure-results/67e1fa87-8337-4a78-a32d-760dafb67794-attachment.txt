@@ -1,0 +1,2 @@
+✅ TC012 PASSED: Very long document ID handled
+Status: 400

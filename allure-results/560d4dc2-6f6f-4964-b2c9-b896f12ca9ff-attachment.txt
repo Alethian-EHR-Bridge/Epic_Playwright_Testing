@@ -1,0 +1,73 @@
+TC008 PASSED: Missing startDate parameter handled (returned 200)
+Status: 200
+Response: {
+  status: 'success',
+  total: 5,
+  appointments: [
+    {
+      id: 'evTiQA9oPDAS66tOkrTIbXVkgWPaOTrRcucSsvdoeNfI3',
+      visitType: 'in-person',
+      patientId: 'eq081-VQEgP8drUUqCWzHfw3',
+      providerId: 'eM5CWtq15N0WJeuCet5bJlQ3',
+      startDatetime: '2019-05-24T19:30:00Z',
+      endDatetime: '2019-05-24T19:45:00Z',
+      appointmentStatus: 'booked',
+      locationId: 'e4W4rmGe9QzuGm2Dy4NBqVc0KDe6yGld6HW95UuN-Qd03',
+      note: 'Please bring any insurance information and a copayment if required by your insurance company.',
+      customerInsuranceId: null,
+      metadata: [Object]
+    },
+    {
+      id: 'evTiQA9oPDAS66tOkrTIbXdvQysdvJopbk.a8HGzO7k43',
+      visitType: 'in-person',
+      patientId: 'eq081-VQEgP8drUUqCWzHfw3',
+      providerId: 'eM5CWtq15N0WJeuCet5bJlQ3',
+      startDatetime: '2020-01-07T15:30:00Z',
+      endDatetime: '2020-01-07T16:00:00Z',
+      appointmentStatus: 'booked',
+      locationId: 'e4W4rmGe9QzuGm2Dy4NBqVc0KDe6yGld6HW95UuN-Qd03',
+      note: 'Please bring any insurance information and a copayment if required by your insurance company.',
+      customerInsuranceId: null,
+      metadata: [Object]
+    },
+    {
+      id: 'ejxqY5Pdk6FFOvtrireyw8RTvNd-wqa5ZQPOyQb0Y60g3',
+      visitType: 'virtual',
+      patientId: 'eq081-VQEgP8drUUqCWzHfw3',
+      providerId: 'eM5CWtq15N0WJeuCet5bJlQ3',
+      startDatetime: '2020-11-30T14:00:00Z',
+      endDatetime: '2020-11-30T14:30:00Z',
+      appointmentStatus: 'booked',
+      locationId: 'e4W4rmGe9QzuGm2Dy4NBqVc0KDe6yGld6HW95UuN-Qd03',
+      note: null,
+      customerInsuranceId: null,
+      metadata: [Object]
+    },
+    {
+      id: 'ejxqY5Pdk6FFOvtrireyw8aAAsuMyNiTARz1s.VhrtT43',
+      visitType: 'virtual',
+      patientId: 'eq081-VQEgP8drUUqCWzHfw3',
+      providerId: 'eM5CWtq15N0WJeuCet5bJlQ3',
+      startDatetime: '2021-01-05T14:00:00Z',
+      endDatetime: '2021-01-05T14:30:00Z',
+      appointmentStatus: 'booked',
+      locationId: 'e4W4rmGe9QzuGm2Dy4NBqVc0KDe6yGld6HW95UuN-Qd03',
+      note: null,
+      customerInsuranceId: null,
+      metadata: [Object]
+    },
+    {
+      id: 'ejxqY5Pdk6FFOvtrireyw8TQOhRQgm-NKHidELkOetEk3',
+      visitType: 'virtual',
+      patientId: 'eq081-VQEgP8drUUqCWzHfw3',
+      providerId: 'eM5CWtq15N0WJeuCet5bJlQ3',
+      startDatetime: '2021-01-06T14:30:00Z',
+      endDatetime: '2021-01-06T15:00:00Z',
+      appointmentStatus: 'booked',
+      locationId: 'e4W4rmGe9QzuGm2Dy4NBqVc0KDe6yGld6HW95UuN-Qd03',
+      note: null,
+      customerInsuranceId: null,
+      metadata: [Object]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+TC011: Testing invalid date formats...
+  - Invalid start date: Status 200
+  - Invalid end date: Status 200
+  - Invalid month/day: Status 200
+  - Wrong format (DD-MM-YYYY): Status 200
+TC011 PASSED: Invalid date formats rejected

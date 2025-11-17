@@ -1,0 +1,2 @@
+TC002 PASSED: Patient with no medications handled
+Medications found: 0

@@ -1,0 +1,1 @@
+✅ TC012 PASSED: Non-existent email handled with status: 500

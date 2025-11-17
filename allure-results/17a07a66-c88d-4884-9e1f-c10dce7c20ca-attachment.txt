@@ -1,0 +1,4 @@
+TC008 PASSED: Mix of valid and invalid IDs handled
+Status: 201
+Patients found: 2
+Expected: Only valid IDs should return patients

@@ -1,0 +1,3 @@
+✅ Setup: Retrieved valid document ID: epKvESIoTgtm9RYaDF0LJQA3
+✅ TC020 PASSED: Document belongs to correct patient
+Patient ID: e63wRTbPfr1p8UW81d8Seiw3

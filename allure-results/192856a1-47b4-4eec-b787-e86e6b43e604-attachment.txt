@@ -1,0 +1,6 @@
+✅ Setup: Retrieved valid document ID: epKvESIoTgtm9RYaDF0LJQA3
+✅ TC004: Testing multiple document retrieval...
+  - Document 1 (epKvESIoTgtm9RYaDF0LJQA3): Status 200
+  - Document 2 (ey9wobN5uBBDzlUYmi4UnEA3): Status 200
+  - Document 3 (eWbDDJpCjgsaUAhRUuLg8Bw3): Status 200
+✅ TC004 PASSED: Multiple documents retrieved

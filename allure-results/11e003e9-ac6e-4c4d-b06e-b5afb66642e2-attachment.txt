@@ -1,0 +1,2 @@
+TC002 PASSED: Single patient retrieved
+Patients found: 1

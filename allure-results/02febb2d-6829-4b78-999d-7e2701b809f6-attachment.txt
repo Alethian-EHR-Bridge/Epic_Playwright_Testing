@@ -1,0 +1,27 @@
+TC004: Appointment structure validation
+Available fields: [
+  'id',
+  'visitType',
+  'patientId',
+  'providerId',
+  'startDatetime',
+  'endDatetime',
+  'appointmentStatus',
+  'locationId',
+  'note',
+  'customerInsuranceId',
+  'metadata'
+]
+  ✓ id: evTiQA9oPDAS66tOkrTIbXVkgWPaOTrRcucSsvdoeNfI3
+  ✓ patientId: eq081-VQEgP8drUUqCWzHfw3
+  ✓ providerId: eM5CWtq15N0WJeuCet5bJlQ3
+  ✗ appointmentDate: Not present
+  ✗ appointmentTime: Not present
+  ✗ status: Not present
+  ✗ reason: Not present
+  ✗ type: Not present
+  ✗ location: Not present
+  ✗ duration: Not present
+  ✗ createdAt: Not present
+  ✗ updatedAt: Not present
+TC004 PASSED: Structure validated

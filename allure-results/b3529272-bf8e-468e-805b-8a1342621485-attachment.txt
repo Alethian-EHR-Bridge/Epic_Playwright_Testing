@@ -1,0 +1,2 @@
+Case Sensitive Patient ID, Status: 404
+Original ID: e63wRTbPfr1p8UW81d8Seiw3, Test ID: e63wrtbpfr1p8uw81d8seiw3

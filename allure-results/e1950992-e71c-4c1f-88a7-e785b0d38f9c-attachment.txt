@@ -1,0 +1,2 @@
+TC010 PASSED: Invalid business-location-id handled
+Status: 500

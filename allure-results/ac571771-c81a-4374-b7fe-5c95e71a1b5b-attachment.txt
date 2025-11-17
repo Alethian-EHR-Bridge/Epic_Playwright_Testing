@@ -1,0 +1,6 @@
+TC004: Testing different gender identities...
+  - Gender: male -> Status: 400
+  - Gender: female -> Status: 400
+  - Gender: other -> Status: 400
+  - Gender: non-binary -> Status: 400
+TC004 PASSED: Different gender identities tested

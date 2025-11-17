@@ -1,0 +1,3 @@
+TC004 PASSED: Large number of IDs handled
+Status: 201
+Patients found: 15

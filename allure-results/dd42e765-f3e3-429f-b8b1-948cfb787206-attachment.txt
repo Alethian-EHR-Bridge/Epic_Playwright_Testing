@@ -1,0 +1,14 @@
+TC006 PASSED: Non-existent patient ID handled
+Status: 400 Error: {
+  statusCode: 400,
+  timestamp: '2025-11-11T06:53:08.112Z',
+  path: '/api/v1/ehr/patients/nonexistent999999/medications',
+  method: 'GET',
+  message: 'Invalid FHIR ID param',
+  stack: 'Error: Invalid FHIR ID param\n' +
+    '    at new EhrAdapterBadRequestError (/app/node_modules/@alethian-ehr-bridge/ehr-adapter/dist/types/errors/ehr-adapter-errors.js:8:9)\n' +
+    '    at ErrorHandlerService.handleError (/app/node_modules/@alethian-ehr-bridge/adapter-api-epic/dist/common/services/errorhandler.service.js:41:23)\n' +
+    '    at EpicPatientsService.getMedicationDispenses (/app/node_modules/@alethian-ehr-bridge/adapter-api-epic/dist/services/patients/epic-patients.service.js:258:60)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  correlation_id: '9abb1717-2839-4d78-a4ff-0c9b4330f741'
+}

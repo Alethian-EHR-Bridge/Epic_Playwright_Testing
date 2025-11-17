@@ -1,0 +1,5 @@
+TC016: Testing special characters in dates...
+  - Special chars blocked: Status 200
+  - Special chars blocked: Status 200
+  - Special chars blocked: Status 200
+TC016 PASSED: Special characters handled safely

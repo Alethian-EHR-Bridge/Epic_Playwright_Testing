@@ -1,0 +1,14 @@
+TC005 PASSED: Special characters in name rejected (validation enforced)
+Error: {
+  statusCode: 400,
+  timestamp: '2025-11-06T06:18:31.657Z',
+  path: '/api/v1/ehr/patients',
+  method: 'POST',
+  message: '{"resourceType":"OperationOutcome","issue":[{"severity":"fatal","code":"required","details":{"coding":[{"system":"urn:oid:1.2.840.114350.1.13.0.1.7.2.657369","code":"59108","display":"A required element is missing."}],"text":"A required element is missing."},"location":["/f:identifier(ssn)"],"expression":["identifier (ssn)"]}]}',
+  stack: 'Error: {"resourceType":"OperationOutcome","issue":[{"severity":"fatal","code":"required","details":{"coding":[{"system":"urn:oid:1.2.840.114350.1.13.0.1.7.2.657369","code":"59108","display":"A required element is missing."}],"text":"A required element is missing."},"location":["/f:identifier(ssn)"],"expression":["identifier (ssn)"]}]}\n' +
+    '    at new EhrAdapterBadRequestError (/app/node_modules/@alethian-ehr-bridge/ehr-adapter/dist/types/errors/ehr-adapter-errors.js:8:9)\n' +
+    '    at ErrorHandlerService.handleError (/app/node_modules/@alethian-ehr-bridge/adapter-api-epic/dist/common/services/errorhandler.service.js:41:23)\n' +
+    '    at EpicPatientsService.createPatient (/app/node_modules/@alethian-ehr-bridge/adapter-api-epic/dist/services/patients/epic-patients.service.js:108:60)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  correlation_id: '9e38cdc6-22a9-4822-bac4-c1e92fd81408'
+}

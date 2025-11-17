@@ -1,0 +1,14 @@
+✅ TC023 PASSED: Empty filters rejected with 400
+Error: {
+  statusCode: 400,
+  timestamp: '2025-11-04T07:14:48.290Z',
+  path: '/api/v1/ehr/patients?name=&birthDate=&email=',
+  method: 'GET',
+  message: 'This resource requires demographics or _id parameter for searching.',
+  stack: 'Error: This resource requires demographics or _id parameter for searching.\n' +
+    '    at new EhrAdapterBadRequestError (/app/node_modules/@alethian-ehr-bridge/ehr-adapter/dist/types/errors/ehr-adapter-errors.js:8:9)\n' +
+    '    at ErrorHandlerService.handleError (/app/node_modules/@alethian-ehr-bridge/adapter-api-epic/dist/common/services/errorhandler.service.js:41:23)\n' +
+    '    at EpicPatientsService.getAllPatients (/app/node_modules/@alethian-ehr-bridge/adapter-api-epic/dist/services/patients/epic-patients.service.js:44:60)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  correlation_id: '62ab55d6-1492-49a3-b22b-ecf1e85643ae'
+}

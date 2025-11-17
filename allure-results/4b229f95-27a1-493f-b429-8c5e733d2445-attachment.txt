@@ -1,0 +1,3 @@
+TC001 PASSED: Patient medications retrieved successfully
+Response: []
+Medications found: 0

@@ -1,0 +1,5 @@
+Invalid Location ID: "invalid", Status: 500
+Invalid Location ID: "-1", Status: 500
+Invalid Location ID: "0", Status: 500
+Invalid Location ID: "abc", Status: 500
+Invalid Location ID: "999999999", Status: 500

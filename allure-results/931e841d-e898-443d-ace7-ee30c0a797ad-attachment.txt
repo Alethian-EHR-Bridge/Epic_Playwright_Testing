@@ -1,0 +1,1 @@
+✅ TC024 PASSED: Special characters in type handled, Documents: 260

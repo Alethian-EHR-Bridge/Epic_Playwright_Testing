@@ -1,0 +1,6 @@
+TC003: Testing appointments for multiple patients...
+  - Patient eq081-VQEgP8drUUqCWzHfw3: 5 appointment(s)
+  - Patient eX6eFJqj-TrTEtf5w901wRw3: 0 appointment(s)
+  - Patient e63wRTbPfr1p8UW81d8Seiw3: 16 appointment(s)
+  - Patient eC3mOhj6IBKsreVGIynSMLQ3: 0 appointment(s)
+TC003 PASSED: Multiple patient appointments tested

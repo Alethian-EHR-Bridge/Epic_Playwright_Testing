@@ -1,0 +1,2 @@
+✅ TC007 PASSED: Get documents from date onwards successful
+Documents from 2024-01-01: 260

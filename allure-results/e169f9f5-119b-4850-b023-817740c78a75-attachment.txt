@@ -1,0 +1,16 @@
+TC003 PASSED: Non-existent appointment ID handled
+Status: 404
+Error: {
+  statusCode: 404,
+  timestamp: '2025-11-11T09:38:16.758Z',
+  path: '/api/v1/ehr/appointments/nonexistent-appointment-id-999999',
+  method: 'GET',
+  message: 'Invalid FHIR ID provided',
+  stack: 'Error: Invalid FHIR ID provided\n' +
+    '    at new EhrAdapterResourceNotFoundError (/app/node_modules/@alethian-ehr-bridge/ehr-adapter/dist/types/errors/ehr-adapter-errors.js:20:9)\n' +
+    '    at ErrorHandlerService.handleError (/app/node_modules/@alethian-ehr-bridge/adapter-api-epic/dist/common/services/errorhandler.service.js:38:23)\n' +
+    '    at EpicAppointmentsService.getAppointmentById (/app/node_modules/@alethian-ehr-bridge/adapter-api-epic/dist/services/appointments/epic-appointments.service.js:48:60)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  correlation_id: '0a64c266-6821-470f-9a64-a4186b419ac3'
+}
+Error message: Invalid FHIR ID provided

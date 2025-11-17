@@ -1,0 +1,45 @@
+✅ Setup: Retrieved valid document ID: epKvESIoTgtm9RYaDF0LJQA3
+✅ TC001 PASSED: Get specific document successful
+Document: {
+  "id": "epKvESIoTgtm9RYaDF0LJQA3",
+  "patientId": "e63wRTbPfr1p8UW81d8Seiw3",
+  "authors": [
+    "exfo6E4EXjWsnhA1OGVElgw3"
+  ],
+  "categories": [
+    "clinical-note"
+  ],
+  "content": [
+    {
+      "attachment": {
+        "contentType": "text/html",
+        "url": "Binary/eWZXP1c99e4bcKg5.hEsZ-w3"
+      },
+      "format": "mimeType Sufficient"
+    },
+    {
+      "attachment": {
+        "contentType": "text/rtf",
+        "url": "Binary/fFeTwkggg3kyu0KxR5StUvsOa8O7rfqfVM.g3kNcgQZM4"
+      },
+      "format": "mimeType Sufficient"
+    }
+  ],
+  "context": {
+    "providerType": [
+      "Registered Nurse"
+    ],
+    "encounter": [
+      "eDQ4b05N7Rf1.p37yggVWRQ3"
+    ],
+    "period": {
+      "start": "2021-02-03T12:48:46Z"
+    }
+  },
+  "dateCreated": "2021-02-03T12:48:46Z",
+  "draftStatus": "preliminary",
+  "status": "current",
+  "custodianId": "urn:oid:1.2.840.114350.1.13.0.1.7.3.688884.100"
+}
+Document ID: epKvESIoTgtm9RYaDF0LJQA3
+Document Type: N/A

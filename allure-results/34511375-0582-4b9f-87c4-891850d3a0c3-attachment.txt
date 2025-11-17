@@ -1,0 +1,14 @@
+TC005 PASSED: Invalid patient ID format rejected
+Status: 400 Error: {
+  statusCode: 400,
+  timestamp: '2025-11-11T06:53:24.643Z',
+  path: '/api/v1/ehr/patients/invalid-patient-123/medications',
+  method: 'GET',
+  message: 'Invalid FHIR ID param',
+  stack: 'Error: Invalid FHIR ID param\n' +
+    '    at new EhrAdapterBadRequestError (/app/node_modules/@alethian-ehr-bridge/ehr-adapter/dist/types/errors/ehr-adapter-errors.js:8:9)\n' +
+    '    at ErrorHandlerService.handleError (/app/node_modules/@alethian-ehr-bridge/adapter-api-epic/dist/common/services/errorhandler.service.js:41:23)\n' +
+    '    at EpicPatientsService.getMedicationDispenses (/app/node_modules/@alethian-ehr-bridge/adapter-api-epic/dist/services/patients/epic-patients.service.js:258:60)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  correlation_id: 'dc8c9226-b402-4ff1-9967-5dc3b883ea83'
+}

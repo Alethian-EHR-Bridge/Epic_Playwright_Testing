@@ -1,0 +1,4 @@
+Business Location ID: 6, Status: 200
+Business Location ID: 1, Status: 500
+Business Location ID: 10, Status: 500
+Business Location ID: 100, Status: 500

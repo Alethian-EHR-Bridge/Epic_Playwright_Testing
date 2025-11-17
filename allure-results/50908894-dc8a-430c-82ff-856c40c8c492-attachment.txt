@@ -1,0 +1,31 @@
+TC001 PASSED: Patient created successfully
+Response: {
+  "id": "eX6eFJqj-TrTEtf5w901wRw3",
+  "externalId": "FHRZQ9Q237B3Z84",
+  "firstName": "John",
+  "lastName": "Marico",
+  "genderIdentity": "male",
+  "email": "john.Marico@example.com",
+  "address": "123 Main St",
+  "city": "Springfield",
+  "state": "IL",
+  "zipCode": "62701",
+  "birthdate": "1995-02-19T00:00:00.000Z",
+  "age": 30,
+  "metadata": {
+    "identifier_0_system": "urn:oid:1.2.840.114350.1.13.0.1.7.3.688884.100",
+    "identifier_0_value": "FHRZQ9Q237B3Z84",
+    "identifier_1_system": "urn:oid:1.2.840.114350.1.13.0.1.7.5.737384.0",
+    "identifier_1_value": "E15710",
+    "identifier_2_system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.698084",
+    "identifier_2_value": "Z6310",
+    "identifier_3_system": "http://open.epic.com/FHIR/StructureDefinition/patient-dstu2-fhir-id",
+    "identifier_3_value": "TdlojR5J03xjxwbGlOo-AhEK01QPdPmPAN3ZBr-M4rPAB",
+    "identifier_4_system": "http://open.epic.com/FHIR/StructureDefinition/patient-fhir-id",
+    "identifier_4_value": "eX6eFJqj-TrTEtf5w901wRw3",
+    "identifier_5_system": "urn:oid:1.2.840.114350.1.13.0.1.7.2.698084",
+    "identifier_5_value": "     Z6310",
+    "identifier_6_system": "urn:oid:2.16.840.1.113883.4.1",
+    "identifier_6_value": "123-45-6779"
+  }
+}

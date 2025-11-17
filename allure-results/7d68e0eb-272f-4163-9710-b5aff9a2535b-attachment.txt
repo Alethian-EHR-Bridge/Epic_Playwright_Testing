@@ -1,0 +1,15 @@
+TC014 PASSED: Invalid patient ID handled
+Status: 400
+Error: {
+  statusCode: 400,
+  timestamp: '2025-11-11T10:00:38.233Z',
+  path: '/api/v1/ehr/appointments?startDate=2019-05-24T19:30:00Z&endDate=2019-05-24T19:45:00Z&patientId=invalid-patient-123',
+  method: 'GET',
+  message: 'Invalid FHIR ID param',
+  stack: 'Error: Invalid FHIR ID param\n' +
+    '    at new EhrAdapterBadRequestError (/app/node_modules/@alethian-ehr-bridge/ehr-adapter/dist/types/errors/ehr-adapter-errors.js:8:9)\n' +
+    '    at ErrorHandlerService.handleError (/app/node_modules/@alethian-ehr-bridge/adapter-api-epic/dist/common/services/errorhandler.service.js:41:23)\n' +
+    '    at EpicAppointmentsService.getAllAppointments (/app/node_modules/@alethian-ehr-bridge/adapter-api-epic/dist/services/appointments/epic-appointments.service.js:154:60)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  correlation_id: 'abeb3fe6-16ed-46e2-b5d4-b0f3473da167'
+}

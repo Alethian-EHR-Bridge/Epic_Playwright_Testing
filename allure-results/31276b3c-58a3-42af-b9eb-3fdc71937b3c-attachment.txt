@@ -1,0 +1,7 @@
+✅ TC005: Testing different document types...
+  - Type: "Lab Results" -> Documents: 291
+  - Type: "Imaging" -> Documents: 291
+  - Type: "Clinical Notes" -> Documents: 291
+  - Type: "Progress Notes" -> Documents: 291
+  - Type: "Discharge Summary" -> Documents: 291
+✅ TC005 PASSED: Multiple document types tested

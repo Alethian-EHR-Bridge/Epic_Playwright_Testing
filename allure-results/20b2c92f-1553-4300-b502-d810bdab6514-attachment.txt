@@ -1,0 +1,8 @@
+Invalid Patient ID: "invalid_id", Status: 404
+Invalid Patient ID: "12345", Status: 404
+Invalid Patient ID: "abc@#$%", Status: 404
+Invalid Patient ID: "", Status: 500
+
+📊 HTML Report generated successfully!
+📁 Report location: c:\Users\TTPL-LNV-0320\Desktop\Alethian_testing\Epic_Playwright_Testing\test-reports\EHR_Patient_API_Report.html
+🌐 Open the report in your browser to view detailed results.

@@ -1,0 +1,71 @@
+✅ TC001 PASSED: All 4 filters search successful
+Response: [
+  {
+    "id": "eOPSKZbz6YIgoilQprzPy0Q3",
+    "firstName": "Anna",
+    "lastName": "Cadence",
+    "genderIdentity": "female",
+    "birthDate": "1983-09-09",
+    "email": "sleeplessinseattle@ymail.com",
+    "phoneNumbers": [
+      {
+        "phoneNumber": "+1 608-271-9000",
+        "type": "home"
+      }
+    ],
+    "address": "8799 1st Street",
+    "city": "VERONA",
+    "state": "WI",
+    "zipCode": "53593",
+    "country": "US",
+    "externalId": "FHR5JCP2HX6DTTG",
+    "age": 42,
+    "race": "Other",
+    "languagesSpoken": [
+      "English"
+    ],
+    "emergencyContacts": [
+      {
+        "address": "1979 MILKY WAY",
+        "phone": {
+          "phoneNumber": "608-271-9000",
+          "type": "work"
+        },
+        "city": "VERONA",
+        "state": "WI",
+        "zipCode": "53593",
+        "country": "US",
+        "relationship": "Employer"
+      }
+    ]
+  }
+]
+Patient found: {
+  id: 'eOPSKZbz6YIgoilQprzPy0Q3',
+  firstName: 'Anna',
+  lastName: 'Cadence',
+  genderIdentity: 'female',
+  birthDate: '1983-09-09',
+  email: 'sleeplessinseattle@ymail.com',
+  phoneNumbers: [ { phoneNumber: '+1 608-271-9000', type: 'home' } ],
+  address: '8799 1st Street',
+  city: 'VERONA',
+  state: 'WI',
+  zipCode: '53593',
+  country: 'US',
+  externalId: 'FHR5JCP2HX6DTTG',
+  age: 42,
+  race: 'Other',
+  languagesSpoken: [ 'English' ],
+  emergencyContacts: [
+    {
+      address: '1979 MILKY WAY',
+      phone: [Object],
+      city: 'VERONA',
+      state: 'WI',
+      zipCode: '53593',
+      country: 'US',
+      relationship: 'Employer'
+    }
+  ]
+}

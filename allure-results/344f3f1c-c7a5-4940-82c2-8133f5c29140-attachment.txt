@@ -1,0 +1,20 @@
+TC013 PASSED: Missing business-location-id header validation working
+Status: 400 Error: {
+  statusCode: 400,
+  timestamp: '2025-11-06T06:12:53.504Z',
+  path: '/api/v1/ehr/patients',
+  method: 'POST',
+  message: 'Business-Location-Id header is required',
+  stack: 'BadRequestException: Business-Location-Id header is required\n' +
+    '    at BusinessLocationInterceptor.intercept (/app/dist/common/interceptors/business-location.interceptor.js:16:19)\n' +
+    '    at nextFn (/app/node_modules/@nestjs/core/interceptors/interceptors-consumer.js:23:36)\n' +
+    '    at /app/node_modules/@nestjs/core/interceptors/interceptors-consumer.js:21:88\n' +
+    '    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)\n' +
+    '    at bound (node:async_hooks:238:16)\n' +
+    '    at Observable._subscribe (/app/node_modules/rxjs/dist/cjs/internal/observable/defer.js:8:31)\n' +
+    '    at Observable._trySubscribe (/app/node_modules/rxjs/dist/cjs/internal/Observable.js:41:25)\n' +
+    '    at /app/node_modules/rxjs/dist/cjs/internal/Observable.js:35:31\n' +
+    '    at Object.errorContext (/app/node_modules/rxjs/dist/cjs/internal/util/errorContext.js:22:9)\n' +
+    '    at Observable.subscribe (/app/node_modules/rxjs/dist/cjs/internal/Observable.js:26:24)',
+  correlation_id: 'f8ec6fb5-b66c-4a79-9da7-4bb3a96165ce'
+}

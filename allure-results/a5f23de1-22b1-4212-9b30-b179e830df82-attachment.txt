@@ -1,0 +1,1 @@
+✅ TC010 PASSED: Invalid date format handled, returned: 0 patients

@@ -1,0 +1,4 @@
+✅ TC019: Testing case sensitivity of document type...
+  - Type: "Lab Results" -> Status: 200, Documents: 291
+  - Type: "lab results" -> Status: 200, Documents: 291
+  - Type: "LAB RESULTS" -> Status: 200, Documents: 291

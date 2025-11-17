@@ -1,0 +1,1 @@
+TC003 PASSED: Medication structure validated

@@ -1,0 +1,5 @@
+CORS Headers: {
+  'access-control-allow-origin': '*',
+  'access-control-allow-methods': undefined,
+  'access-control-allow-headers': undefined
+}

@@ -1,0 +1,173 @@
+================================================================================
+  EHR Bridge Patient API Tests
+  Test Execution Report
+================================================================================
+
+Execution Date: 13/11/2025, 2:27:46 pm
+Total Duration: 7.34 seconds
+
+--------------------------------------------------------------------------------
+  TEST SUMMARY
+--------------------------------------------------------------------------------
+Total Tests:     15
+Passed:          11 ✅
+Failed:          4 ❌
+Skipped:         0 ⏭️
+Timed Out:       0 ⏱️
+Success Rate:    73.33%
+
+--------------------------------------------------------------------------------
+  TEST CASES DETAILS
+--------------------------------------------------------------------------------
+
+
+Suite: chromium > EHR_Patient\Create_New_Patient.spec.ts > Create Patient API Tests
+--------------------------------------------------------------------------------
+
+1. TC010: Create patient with invalid SSN format
+   Status:   ✅ PASSED
+   Duration: 1.01s
+
+2. TC007: Create patient with invalid email format
+   Status:   ✅ PASSED
+   Duration: 1.06s
+
+3. TC013: Create patient without business-location-id header
+   Status:   ✅ PASSED
+   Duration: 1.11s
+
+4. TC004: Create patient with different gender identities
+   Status:   ❌ FAILED
+   Duration: 1.00s
+   Error:    Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+Expected value: [32m500[39m
+Received array: [31m[200, 201, 400][39m
+Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+Expected value: [32m500[39m
+Received array: [31m[200, 201, 400][39m
+    at C:\Users\TTPL-LNV-0320\Desktop\Alethian_testing\Epic_Playwright_Testing\src\tests\EHR_Patient\Create_New_Patient.spec.ts:196:31
+
+5. TC001: Create patient with all required and optional fields
+   Status:   ❌ FAILED
+   Duration: 1.19s
+   Error:    Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+Expected value: [32m400[39m
+Received array: [31m[200, 201][39m
+Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+Expected value: [32m400[39m
+Received array: [31m[200, 201][39m
+    at C:\Users\TTPL-LNV-0320\Desktop\Alethian_testing\Epic_Playwright_Testing\src\tests\EHR_Patient\Create_New_Patient.spec.ts:66:24
+
+6. TC011: Create patient with invalid phone number format
+   Status:   ✅ PASSED
+   Duration: 0.24s
+
+7. TC008: Create patient with invalid birthdate format
+   Status:   ✅ PASSED
+   Duration: 0.24s
+
+8. TC009: Create patient with future birthdate
+   Status:   ✅ PASSED
+   Duration: 0.24s
+
+9. TC014: Create patient with duplicate email
+   Status:   ✅ PASSED
+   Duration: 0.46s
+
+10. TC012: Create patient with invalid zip code
+   Status:   ❌ FAILED
+   Duration: 0.24s
+   Error:    Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+Expected value: [32m500[39m
+Received array: [31m[200, 201, 400][39m
+Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+Expected value: [32m500[39m
+Received array: [31m[200, 201, 400][39m
+    at C:\Users\TTPL-LNV-0320\Desktop\Alethian_testing\Epic_Playwright_Testing\src\tests\EHR_Patient\Create_New_Patient.spec.ts:436:29
+
+11. TC015: Create patient with empty request body
+   Status:   ✅ PASSED
+   Duration: 0.58s
+
+12. TC002: Create patient with minimum required fields only
+   Status:   ✅ PASSED
+   Duration: 0.74s
+
+13. TC005: Create patient with special characters in name
+   Status:   ❌ FAILED
+   Duration: 0.75s
+   Error:    Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+Expected value: [32m500[39m
+Received array: [31m[200, 201, 400][39m
+Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+Expected value: [32m500[39m
+Received array: [31m[200, 201, 400][39m
+    at C:\Users\TTPL-LNV-0320\Desktop\Alethian_testing\Epic_Playwright_Testing\src\tests\EHR_Patient\Create_New_Patient.spec.ts:238:29
+
+14. TC003: Create patient with multiple phone numbers
+   Status:   ✅ PASSED
+   Duration: 0.75s
+
+15. TC006: Create patient with missing required fields
+   Status:   ✅ PASSED
+   Duration: 1.31s
+
+--------------------------------------------------------------------------------
+  FAILED TESTS SUMMARY
+--------------------------------------------------------------------------------
+
+1. TC004: Create patient with different gender identities [chromium > EHR_Patient\Create_New_Patient.spec.ts > Create Patient API Tests]
+   Error: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+Expected value: [32m500[39m
+Received array: [31m[200, 201, 400][39m
+Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+Expected value: [32m500[39m
+Received array: [31m[200, 201, 400][39m
+    at C:\Users\TTPL-LNV-0320\Desktop\Alethian_testing\Epic_Playwright_Testing\src\tests\EHR_Patient\Create_New_Patient.spec.ts:196:31
+
+2. TC001: Create patient with all required and optional fields [chromium > EHR_Patient\Create_New_Patient.spec.ts > Create Patient API Tests]
+   Error: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+Expected value: [32m400[39m
+Received array: [31m[200, 201][39m
+Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+Expected value: [32m400[39m
+Received array: [31m[200, 201][39m
+    at C:\Users\TTPL-LNV-0320\Desktop\Alethian_testing\Epic_Playwright_Testing\src\tests\EHR_Patient\Create_New_Patient.spec.ts:66:24
+
+3. TC012: Create patient with invalid zip code [chromium > EHR_Patient\Create_New_Patient.spec.ts > Create Patient API Tests]
+   Error: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+Expected value: [32m500[39m
+Received array: [31m[200, 201, 400][39m
+Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+Expected value: [32m500[39m
+Received array: [31m[200, 201, 400][39m
+    at C:\Users\TTPL-LNV-0320\Desktop\Alethian_testing\Epic_Playwright_Testing\src\tests\EHR_Patient\Create_New_Patient.spec.ts:436:29
+
+4. TC005: Create patient with special characters in name [chromium > EHR_Patient\Create_New_Patient.spec.ts > Create Patient API Tests]
+   Error: Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+Expected value: [32m500[39m
+Received array: [31m[200, 201, 400][39m
+Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+Expected value: [32m500[39m
+Received array: [31m[200, 201, 400][39m
+    at C:\Users\TTPL-LNV-0320\Desktop\Alethian_testing\Epic_Playwright_Testing\src\tests\EHR_Patient\Create_New_Patient.spec.ts:238:29
+
+================================================================================
+Report Generated: 13/11/2025, 2:27:46 pm
+================================================================================

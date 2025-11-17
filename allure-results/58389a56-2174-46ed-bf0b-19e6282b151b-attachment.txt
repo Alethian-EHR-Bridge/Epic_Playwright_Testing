@@ -1,0 +1,43 @@
+Patient Details Response: {
+  "id": "e63wRTbPfr1p8UW81d8Seiw3",
+  "firstName": "Theodore",
+  "lastName": "Mychart",
+  "genderIdentity": "male",
+  "birthDate": "1948-07-07",
+  "email": null,
+  "phoneNumbers": [
+    {
+      "phoneNumber": "+1 608-213-5806",
+      "type": "home"
+    },
+    {
+      "phoneNumber": "+1 608-272-5000",
+      "type": "work"
+    }
+  ],
+  "address": "134 Elm Street",
+  "city": "Madison",
+  "state": "WI",
+  "zipCode": "53706",
+  "country": "US",
+  "externalId": "FHR4CLP63399TZX",
+  "age": 77,
+  "race": "White",
+  "languagesSpoken": [
+    "Sign Languages"
+  ],
+  "emergencyContacts": [
+    {
+      "firstName": "Sally",
+      "lastName": "Tonga",
+      "phone": {
+        "phoneNumber": "+1 608-921-8342",
+        "type": "home"
+      },
+      "relationship": "Sister"
+    },
+    {
+      "relationship": "Employer"
+    }
+  ]
+}

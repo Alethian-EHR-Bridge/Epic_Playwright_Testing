@@ -1,0 +1,1 @@
+Empty business-location-id, Status: 400

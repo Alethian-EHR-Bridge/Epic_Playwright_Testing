@@ -1,0 +1,2 @@
+✅ TC014 PASSED: Response headers validated
+Content-Type: application/json; charset=utf-8

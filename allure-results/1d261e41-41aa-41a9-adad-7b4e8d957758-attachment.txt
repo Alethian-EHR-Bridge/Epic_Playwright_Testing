@@ -1,0 +1,2 @@
+TC018 PASSED: Duplicate parameters handled
+Status: 400

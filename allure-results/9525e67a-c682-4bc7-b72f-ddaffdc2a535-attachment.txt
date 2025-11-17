@@ -1,0 +1,6 @@
+ TC009: Testing special characters in patient ID...
+  - ID "patient@123": Status 400
+  - ID "patient#456": Status 400
+  - ID "patient$789": Status 400
+  - ID "patient<script>": Status 400
+ TC009 PASSED: Special characters handled safely

@@ -1,0 +1,5 @@
+TC002: Verifying date range filtering
+Requested range: 2019-05-24T19:30:00Z to 2019-05-24T19:45:00Z
+Total appointments: 0
+Appointments within range: 0/0
+TC002 PASSED: Date range filtering verified

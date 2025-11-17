@@ -1,0 +1,2 @@
+✅ TC002 PASSED: BirthDate + Name filter successful
+Patients found: 1

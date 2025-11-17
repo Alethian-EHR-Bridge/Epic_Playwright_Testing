@@ -1,0 +1,14 @@
+✅ TC005 PASSED: Invalid document ID format rejected
+Status: 404 Error: {
+  statusCode: 404,
+  timestamp: '2025-11-04T08:52:05.153Z',
+  path: '/api/v1/ehr/patients/e63wRTbPfr1p8UW81d8Seiw3/documents/invalid-doc-id-123',
+  method: 'GET',
+  message: 'Invalid FHIR ID provided',
+  stack: 'Error: Invalid FHIR ID provided\n' +
+    '    at new EhrAdapterResourceNotFoundError (/app/node_modules/@alethian-ehr-bridge/ehr-adapter/dist/types/errors/ehr-adapter-errors.js:20:9)\n' +
+    '    at ErrorHandlerService.handleError (/app/node_modules/@alethian-ehr-bridge/adapter-api-epic/dist/common/services/errorhandler.service.js:38:23)\n' +
+    '    at EpicPatientsService.getDocument (/app/node_modules/@alethian-ehr-bridge/adapter-api-epic/dist/services/patients/epic-patients.service.js:177:60)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  correlation_id: 'ef6c6baa-92f9-439b-b4ac-c57249b94264'
+}

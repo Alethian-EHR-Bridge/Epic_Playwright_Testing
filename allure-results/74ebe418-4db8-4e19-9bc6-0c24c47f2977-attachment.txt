@@ -1,0 +1,2 @@
+✅ TC004 PASSED: Get all documents successful
+Total documents found: 291

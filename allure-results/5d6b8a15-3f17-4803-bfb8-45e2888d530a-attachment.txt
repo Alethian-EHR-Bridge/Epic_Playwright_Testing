@@ -1,0 +1,2 @@
+✅ TC024 PASSED: Special characters in type handled
+Status: 200

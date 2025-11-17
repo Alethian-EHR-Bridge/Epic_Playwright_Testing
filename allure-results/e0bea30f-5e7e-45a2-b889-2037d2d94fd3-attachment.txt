@@ -1,0 +1,3 @@
+TC003 PASSED: Same day range query successful
+Date: 2019-05-24
+Appointments found: 0

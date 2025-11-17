@@ -1,0 +1,7 @@
+✅ Setup: Retrieved valid document ID: epKvESIoTgtm9RYaDF0LJQA3
+✅ TC017: Testing special characters in document ID...
+  - Document ID "doc-id-with-hyphens": Status 404
+  - Document ID "doc_id_with_underscores": Status 404
+  - Document ID "doc.id.with.dots": Status 404
+  - Document ID "doc@id#special": Status 404
+✅ TC017 PASSED: Special characters in document ID tested

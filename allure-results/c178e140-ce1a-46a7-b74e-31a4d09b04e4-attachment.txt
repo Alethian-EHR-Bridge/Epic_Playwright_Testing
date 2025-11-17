@@ -1,0 +1,6 @@
+TC004: Testing invalid appointment ID formats...
+  - ID "123": Status 404
+  - ID "invalid-format": Status 404
+  - ID "appointment@invalid": Status 404
+  - ID "short": Status 404
+TC004 PASSED: Invalid ID formats rejected

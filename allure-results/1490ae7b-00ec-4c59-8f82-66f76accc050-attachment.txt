@@ -1,0 +1,21 @@
+✅ Setup: Retrieved valid document ID: epKvESIoTgtm9RYaDF0LJQA3
+✅ TC009 PASSED: Missing business-location-id header validation working
+Status: 400 Error: {
+  statusCode: 400,
+  timestamp: '2025-11-04T08:52:01.321Z',
+  path: '/api/v1/ehr/patients/e63wRTbPfr1p8UW81d8Seiw3/documents/epKvESIoTgtm9RYaDF0LJQA3',
+  method: 'GET',
+  message: 'Business-Location-Id header is required',
+  stack: 'BadRequestException: Business-Location-Id header is required\n' +
+    '    at BusinessLocationInterceptor.intercept (/app/dist/common/interceptors/business-location.interceptor.js:16:19)\n' +
+    '    at nextFn (/app/node_modules/@nestjs/core/interceptors/interceptors-consumer.js:23:36)\n' +
+    '    at /app/node_modules/@nestjs/core/interceptors/interceptors-consumer.js:21:88\n' +
+    '    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)\n' +
+    '    at bound (node:async_hooks:238:16)\n' +
+    '    at Observable._subscribe (/app/node_modules/rxjs/dist/cjs/internal/observable/defer.js:8:31)\n' +
+    '    at Observable._trySubscribe (/app/node_modules/rxjs/dist/cjs/internal/Observable.js:41:25)\n' +
+    '    at /app/node_modules/rxjs/dist/cjs/internal/Observable.js:35:31\n' +
+    '    at Object.errorContext (/app/node_modules/rxjs/dist/cjs/internal/util/errorContext.js:22:9)\n' +
+    '    at Observable.subscribe (/app/node_modules/rxjs/dist/cjs/internal/Observable.js:26:24)',
+  correlation_id: 'f3a82d00-f019-4331-9734-39a5164d6f25'
+}

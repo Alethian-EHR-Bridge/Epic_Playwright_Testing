@@ -1,0 +1,2 @@
+✅ TC017 PASSED: Case-insensitive search working
+Patients found with lowercase name: 1

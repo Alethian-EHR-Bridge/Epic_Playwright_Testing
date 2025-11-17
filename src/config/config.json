@@ -1,7 +1,7 @@
 {
   "baseUrl": "https://atheal-admin-development-65475268481.us-central1.run.app/en/login",
   "execution": {
-    "environment": "sauceLabs",
+    "environment": "local",
     "browser": "chromium"
   },
   "availableBrowsers": {
@@ -57,7 +57,6 @@
     "selectedPlatform": "windows"
   },
   "testSuites": [
-
     "src/tests/DashboardPage.spec.ts",
     "src/tests/PatientDetailsPage.spec.ts",
     "src/tests/ReportStatusFilter.spec.ts"

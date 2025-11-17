@@ -1,0 +1,5 @@
+Testing query parameter variations...
+  - Query: patientId=eq081-VQEgP8drUUqCWzHfw3 -> Status: 200
+  - Query: patientId=eq081-VQEgP8drUUqCWzHfw3&status=scheduled -> Status: 200
+  - Query: patientId=eq081-VQEgP8drUUqCWzHfw3&limit=10 -> Status: 200
+TC002 PASSED: Query parameter variations tested

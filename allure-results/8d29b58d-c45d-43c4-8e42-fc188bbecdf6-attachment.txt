@@ -1,0 +1,5 @@
+TC006: Testing date format variations...
+  - Format: ISO 8601 with Z - Status: 200
+  - Format: ISO 8601 with milliseconds - Status: 200
+  - Format: URL encoded - Status: 200
+TC006 PASSED: Date format variations tested

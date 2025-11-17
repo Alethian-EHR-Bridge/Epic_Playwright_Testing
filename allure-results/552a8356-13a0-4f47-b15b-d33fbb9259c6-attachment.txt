@@ -1,0 +1,5 @@
+TC004: Testing medications for multiple patients...
+  - Patient eX6eFJqj-TrTEtf5w901wRw3: 0 medication(s)
+  - Patient e63wRTbPfr1p8UW81d8Seiw3: 0 medication(s)
+  - Patient eC3mOhj6IBKsreVGIynSMLQ3: 0 medication(s)
+TC004 PASSED: Multiple patient medications tested

@@ -1,0 +1,17 @@
+TC010 PASSED: Missing IDs field rejected
+Error: {
+  statusCode: 500,
+  timestamp: '2025-11-06T06:30:19.630Z',
+  path: '/api/v1/ehr/patients/by-ids',
+  method: 'POST',
+  message: "Cannot read properties of undefined (reading 'map')",
+  stack: "TypeError: Cannot read properties of undefined (reading 'map')\n" +
+    '    at EpicPatientsService.getPatientsByIds (/app/node_modules/@alethian-ehr-bridge/adapter-api-epic/dist/services/patients/epic-patients.service.js:68:52)\n' +
+    '    at /app/node_modules/@alethian-ehr-bridge/ehr-adapter/dist/core/ehr-adapter.service.js:38:50\n' +
+    '    at AsyncLocalStorage.run (node:async_hooks:346:14)\n' +
+    '    at EhrAdapterContextService.run (/app/node_modules/@alethian-ehr-bridge/ehr-adapter/dist/core/ehr-adapter-context.service.js:15:61)\n' +
+    '    at Proxy.<anonymous> (/app/node_modules/@alethian-ehr-bridge/ehr-adapter/dist/core/ehr-adapter.service.js:37:52)\n' +
+    '    at PatientController.getPatientsByIds (/app/dist/ehr/controllers/patient.controller.js:36:24)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  correlation_id: 'db210957-4cc4-4ce5-b596-3fa14e2c0c95'
+}

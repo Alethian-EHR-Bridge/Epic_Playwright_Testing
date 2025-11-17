@@ -1,0 +1,1 @@
+✅ TC003 PASSED: Get documents with type filter successful

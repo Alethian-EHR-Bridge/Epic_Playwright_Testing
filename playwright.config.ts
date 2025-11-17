@@ -25,6 +25,9 @@ let reporter: any[] = [
   ['list']
 ];
 
+// Add custom JSON and Text reporter for all environments
+reporter.push(['./src/utils/customReporter.ts', { outputDir: path.join(__dirname, 'test-reports') }]);
+
 if (isSauceLabs) {
   // SauceLabs specific reporter configuration - only use basic reporters
   reporter.push(['html', {

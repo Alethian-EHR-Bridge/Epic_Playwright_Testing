@@ -1,0 +1,2 @@
+✅ TC006 PASSED: Get documents for June 2024 successful
+Documents in June 2024: 291

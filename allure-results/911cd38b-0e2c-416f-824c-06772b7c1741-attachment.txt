@@ -1,0 +1,5 @@
+Invalid Location ID: "invalid", Status: 500
+
+📊 HTML Report generated successfully!
+📁 Report location: c:\Users\TTPL-LNV-0320\Desktop\Alethian_testing\Epic_Playwright_Testing\test-reports\EHR_Patient_API_Report.html
+🌐 Open the report in your browser to view detailed results.

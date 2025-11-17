@@ -1,0 +1,2 @@
+✅ TC021 PASSED: Large date range handled
+Documents found (2020-2024): 291

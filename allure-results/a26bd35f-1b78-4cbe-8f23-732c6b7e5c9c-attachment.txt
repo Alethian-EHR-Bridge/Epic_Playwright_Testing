@@ -1,0 +1,6 @@
+TC008: Testing special characters in appointment ID...
+  - ID "appointment@#$%": Status 404
+  - ID "appointment!@#": Status 404
+  - ID "appointment***": Status 400
+  - ID "appointment&&&": Status 400
+TC008 PASSED: Special characters handled safely

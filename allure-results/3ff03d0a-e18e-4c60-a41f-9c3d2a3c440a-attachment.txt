@@ -1,0 +1,43 @@
+TC001 PASSED: Appointments retrieved successfully
+Response: {
+  "status": "success",
+  "total": 1,
+  "appointments": [
+    {
+      "id": "evTiQA9oPDAS66tOkrTIbXVkgWPaOTrRcucSsvdoeNfI3",
+      "visitType": "in-person",
+      "patientId": "eq081-VQEgP8drUUqCWzHfw3",
+      "providerId": "eM5CWtq15N0WJeuCet5bJlQ3",
+      "startDatetime": "2019-05-24T19:30:00Z",
+      "endDatetime": "2019-05-24T19:45:00Z",
+      "appointmentStatus": "booked",
+      "locationId": "e4W4rmGe9QzuGm2Dy4NBqVc0KDe6yGld6HW95UuN-Qd03",
+      "note": "Please bring any insurance information and a copayment if required by your insurance company.",
+      "customerInsuranceId": null,
+      "metadata": {
+        "timestamp": "2025-11-11T10:00:37.841Z",
+        "version": "1.0",
+        "source": "Alethian EHR Integration Bridge"
+      }
+    }
+  ]
+}
+Total appointments found: 1
+Date range: 2019-05-24T19:30:00Z to 2019-05-24T19:45:00Z
+Sample appointment: {
+  id: 'evTiQA9oPDAS66tOkrTIbXVkgWPaOTrRcucSsvdoeNfI3',
+  visitType: 'in-person',
+  patientId: 'eq081-VQEgP8drUUqCWzHfw3',
+  providerId: 'eM5CWtq15N0WJeuCet5bJlQ3',
+  startDatetime: '2019-05-24T19:30:00Z',
+  endDatetime: '2019-05-24T19:45:00Z',
+  appointmentStatus: 'booked',
+  locationId: 'e4W4rmGe9QzuGm2Dy4NBqVc0KDe6yGld6HW95UuN-Qd03',
+  note: 'Please bring any insurance information and a copayment if required by your insurance company.',
+  customerInsuranceId: null,
+  metadata: {
+    timestamp: '2025-11-11T10:00:37.841Z',
+    version: '1.0',
+    source: 'Alethian EHR Integration Bridge'
+  }
+}

@@ -1,0 +1,2 @@
+TC003 PASSED: Two patients retrieved
+Patients found: 2

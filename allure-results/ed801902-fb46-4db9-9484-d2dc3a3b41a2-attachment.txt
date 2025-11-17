@@ -1,0 +1,9 @@
+✅ TC002 PASSED: Document metadata retrieved
+Document fields: [
+  'id',          'patientId',
+  'authors',     'categories',
+  'content',     'context',
+  'dateCreated', 'draftStatus',
+  'status',      'custodianId'
+]
+Document has ID: epKvESIoTgtm9RYaDF0LJQA3

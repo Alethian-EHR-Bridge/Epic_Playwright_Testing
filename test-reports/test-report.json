@@ -1,0 +1,108 @@
+{
+  "summary": {
+    "total": 15,
+    "passed": 11,
+    "failed": 4,
+    "skipped": 0,
+    "timedOut": 0,
+    "duration": 7336
+  },
+  "testCases": [
+    {
+      "testCase": "TC010: Create patient with invalid SSN format",
+      "status": "passed",
+      "duration": 1014,
+      "suite": "chromium > EHR_Patient\\Create_New_Patient.spec.ts > Create Patient API Tests"
+    },
+    {
+      "testCase": "TC007: Create patient with invalid email format",
+      "status": "passed",
+      "duration": 1064,
+      "suite": "chromium > EHR_Patient\\Create_New_Patient.spec.ts > Create Patient API Tests"
+    },
+    {
+      "testCase": "TC013: Create patient without business-location-id header",
+      "status": "passed",
+      "duration": 1111,
+      "suite": "chromium > EHR_Patient\\Create_New_Patient.spec.ts > Create Patient API Tests"
+    },
+    {
+      "testCase": "TC004: Create patient with different gender identities",
+      "status": "failed",
+      "duration": 999,
+      "suite": "chromium > EHR_Patient\\Create_New_Patient.spec.ts > Create Patient API Tests",
+      "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected value: \u001b[32m500\u001b[39m\nReceived array: \u001b[31m[200, 201, 400]\u001b[39m\nError: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected value: \u001b[32m500\u001b[39m\nReceived array: \u001b[31m[200, 201, 400]\u001b[39m\n    at C:\\Users\\TTPL-LNV-0320\\Desktop\\Alethian_testing\\Epic_Playwright_Testing\\src\\tests\\EHR_Patient\\Create_New_Patient.spec.ts:196:31"
+    },
+    {
+      "testCase": "TC001: Create patient with all required and optional fields",
+      "status": "failed",
+      "duration": 1186,
+      "suite": "chromium > EHR_Patient\\Create_New_Patient.spec.ts > Create Patient API Tests",
+      "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected value: \u001b[32m400\u001b[39m\nReceived array: \u001b[31m[200, 201]\u001b[39m\nError: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected value: \u001b[32m400\u001b[39m\nReceived array: \u001b[31m[200, 201]\u001b[39m\n    at C:\\Users\\TTPL-LNV-0320\\Desktop\\Alethian_testing\\Epic_Playwright_Testing\\src\\tests\\EHR_Patient\\Create_New_Patient.spec.ts:66:24"
+    },
+    {
+      "testCase": "TC011: Create patient with invalid phone number format",
+      "status": "passed",
+      "duration": 240,
+      "suite": "chromium > EHR_Patient\\Create_New_Patient.spec.ts > Create Patient API Tests"
+    },
+    {
+      "testCase": "TC008: Create patient with invalid birthdate format",
+      "status": "passed",
+      "duration": 237,
+      "suite": "chromium > EHR_Patient\\Create_New_Patient.spec.ts > Create Patient API Tests"
+    },
+    {
+      "testCase": "TC009: Create patient with future birthdate",
+      "status": "passed",
+      "duration": 244,
+      "suite": "chromium > EHR_Patient\\Create_New_Patient.spec.ts > Create Patient API Tests"
+    },
+    {
+      "testCase": "TC014: Create patient with duplicate email",
+      "status": "passed",
+      "duration": 464,
+      "suite": "chromium > EHR_Patient\\Create_New_Patient.spec.ts > Create Patient API Tests"
+    },
+    {
+      "testCase": "TC012: Create patient with invalid zip code",
+      "status": "failed",
+      "duration": 243,
+      "suite": "chromium > EHR_Patient\\Create_New_Patient.spec.ts > Create Patient API Tests",
+      "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected value: \u001b[32m500\u001b[39m\nReceived array: \u001b[31m[200, 201, 400]\u001b[39m\nError: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected value: \u001b[32m500\u001b[39m\nReceived array: \u001b[31m[200, 201, 400]\u001b[39m\n    at C:\\Users\\TTPL-LNV-0320\\Desktop\\Alethian_testing\\Epic_Playwright_Testing\\src\\tests\\EHR_Patient\\Create_New_Patient.spec.ts:436:29"
+    },
+    {
+      "testCase": "TC015: Create patient with empty request body",
+      "status": "passed",
+      "duration": 582,
+      "suite": "chromium > EHR_Patient\\Create_New_Patient.spec.ts > Create Patient API Tests"
+    },
+    {
+      "testCase": "TC002: Create patient with minimum required fields only",
+      "status": "passed",
+      "duration": 745,
+      "suite": "chromium > EHR_Patient\\Create_New_Patient.spec.ts > Create Patient API Tests"
+    },
+    {
+      "testCase": "TC005: Create patient with special characters in name",
+      "status": "failed",
+      "duration": 754,
+      "suite": "chromium > EHR_Patient\\Create_New_Patient.spec.ts > Create Patient API Tests",
+      "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected value: \u001b[32m500\u001b[39m\nReceived array: \u001b[31m[200, 201, 400]\u001b[39m\nError: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected value: \u001b[32m500\u001b[39m\nReceived array: \u001b[31m[200, 201, 400]\u001b[39m\n    at C:\\Users\\TTPL-LNV-0320\\Desktop\\Alethian_testing\\Epic_Playwright_Testing\\src\\tests\\EHR_Patient\\Create_New_Patient.spec.ts:238:29"
+    },
+    {
+      "testCase": "TC003: Create patient with multiple phone numbers",
+      "status": "passed",
+      "duration": 750,
+      "suite": "chromium > EHR_Patient\\Create_New_Patient.spec.ts > Create Patient API Tests"
+    },
+    {
+      "testCase": "TC006: Create patient with missing required fields",
+      "status": "passed",
+      "duration": 1307,
+      "suite": "chromium > EHR_Patient\\Create_New_Patient.spec.ts > Create Patient API Tests"
+    }
+  ],
+  "timestamp": "2025-11-13T08:57:46.505Z",
+  "testSuite": "EHR Bridge Patient API Tests"
+}

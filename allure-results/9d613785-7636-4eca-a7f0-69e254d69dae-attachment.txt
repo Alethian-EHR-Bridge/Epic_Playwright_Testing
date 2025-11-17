@@ -1,0 +1,5 @@
+Special Char Patient ID: "patient<script>", Status: 400
+Special Char Patient ID: "patient%20id", Status: 404
+Special Char Patient ID: "patient/test", Status: 404
+Special Char Patient ID: "patient?query=1", Status: 404
+Special Char Patient ID: "../../../etc/passwd", Status: 404

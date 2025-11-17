@@ -1,0 +1,6 @@
+✅ Setup: Retrieved valid document ID: epKvESIoTgtm9RYaDF0LJQA3
+✅ TC012: Testing XSS attempts...
+  - XSS payload handled safely: Status 404
+  - XSS payload handled safely: Status 400
+  - XSS payload handled safely: Status 400
+✅ TC012 PASSED: XSS attempts handled safely

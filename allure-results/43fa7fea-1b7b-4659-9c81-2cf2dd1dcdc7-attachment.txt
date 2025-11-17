@@ -1,0 +1,2 @@
+✅ TC022 PASSED: Same date for from and to handled
+Documents on 2024-06-15: 291

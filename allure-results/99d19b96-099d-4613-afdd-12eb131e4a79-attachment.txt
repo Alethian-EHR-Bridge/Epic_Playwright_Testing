@@ -1,0 +1,8 @@
+TC002: Testing multiple appointment IDs...
+  - Appointment evTiQA9oPDAS66tOkrTIbXVkgWPaOTrRcucSsvdoeNfI3: Status 200
+  Retrieved appointment with status: N/A
+  - Appointment evTiQA9oPDAS66tOkrTIbXdvQysdvJopbk.a8HGzO7k43: Status 200
+  Retrieved appointment with status: N/A
+  - Appointment ejxqY5Pdk6FFOvtrireyw8RTvNd-wqa5ZQPOyQb0Y60g3: Status 200
+  Retrieved appointment with status: N/A
+TC002 PASSED: Multiple appointments tested

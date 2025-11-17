@@ -1,0 +1,2 @@
+✅ TC023 PASSED: Empty filters rejected with 400
+Error: This resource requires demographics or _id parameter for searching.

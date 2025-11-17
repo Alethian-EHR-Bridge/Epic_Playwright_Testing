@@ -1,0 +1,2 @@
+✅ TC022 PASSED: Whitespace trimming working correctly
+Patients found with whitespace: 0

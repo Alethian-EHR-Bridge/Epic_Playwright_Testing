@@ -1,0 +1,5 @@
+TC005: Testing date range for multiple patients...
+  - Patient eq081-VQEgP8drUUqCWzHfw3: 1 appointment(s)
+  - Patient eX6eFJqj-TrTEtf5w901wRw3: 0 appointment(s)
+  - Patient e63wRTbPfr1p8UW81d8Seiw3: 0 appointment(s)
+TC005 PASSED: Multiple patients tested

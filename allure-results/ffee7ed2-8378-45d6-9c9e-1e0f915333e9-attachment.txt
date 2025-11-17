@@ -1,0 +1,2 @@
+✅ TC002 PASSED: Get documents with date range successful
+Documents found: 260

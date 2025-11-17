@@ -1,0 +1,17 @@
+TC015 PASSED: Empty request body rejected
+Error: {
+  statusCode: 400,
+  timestamp: '2025-11-13T08:57:40.911Z',
+  path: '/api/v1/ehr/patients',
+  method: 'POST',
+  message: 'firstName must be a string, lastName must be a string, email must be a string, birthdate must be a Date instance',
+  stack: 'BadRequestException: Bad Request Exception\n' +
+    '    at ValidationPipe.exceptionFactory (/app/node_modules/@nestjs/common/pipes/validation.pipe.js:107:20)\n' +
+    '    at ValidationPipe.transform (/app/node_modules/@nestjs/common/pipes/validation.pipe.js:74:30)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at async resolveParamValue (/app/node_modules/@nestjs/core/router/router-execution-context.js:148:23)\n' +
+    '    at async Promise.all (index 0)\n' +
+    '    at async pipesFn (/app/node_modules/@nestjs/core/router/router-execution-context.js:151:13)\n' +
+    '    at async /app/node_modules/@nestjs/core/router/router-execution-context.js:37:30',
+  correlation_id: 'bc46e45a-83f4-46cc-8ccf-08cea2230c5b'
+}
